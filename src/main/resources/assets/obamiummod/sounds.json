@@ -1,0 +1,27 @@
+{
+	"obama_ambient": {
+		"sounds": [
+			"obamiummod:obama_ambient_1",
+			"obamiummod:obama_ambient_2",
+			"obamiummod:obama_ambient_3",
+			"obamiummod:obama_ambient_4",
+			"obamiummod:obama_ambient_5",
+			"obamiummod:obama_ambient_6"
+		]
+	},
+	"obama_death": {
+		"sounds": [
+			"obamiummod:obama_death"
+			
+		]
+	},
+	"obama_hurt": {
+		"sounds": [
+			"obamiummod:obama_hurt_1",
+			"obamiummod:obama_hurt_2",
+			"obamiummod:obama_hurt_3",
+			"obamiummod:obama_hurt_4"
+			
+		]
+	}
+}

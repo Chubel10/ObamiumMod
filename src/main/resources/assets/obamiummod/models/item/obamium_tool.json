@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "obamiummod:item/obamium_tool"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"charge": 80.0
+			},
+			"model": "obamiummod:item/obamium_tool_charged"
+		}
+	]
+}

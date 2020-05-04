@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ooo",
+        "oao",
+        "ooo"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:apple"
+        },
+        "o": {
+            "item": "obamiummod:obamium"
+        }
+    },
+    "result": {
+        "item": "obamiummod:obamium_apple",
+        "count": 1
+    }
+}

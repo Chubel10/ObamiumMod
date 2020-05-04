@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##L",
+        "#ii",
+        "Lii"
+    ],
+    "key": {
+        "#": {
+            "item": "obamiummod:obamium"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "L": {
+            "item": "minecraft:leather"
+        }
+    },
+    "result": {
+        "item": "obamiummod:obamium_tool",
+        "count": 1
+    }
+}

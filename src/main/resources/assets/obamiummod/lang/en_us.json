@@ -1,0 +1,15 @@
+{
+	"item.obamiummod.obamium": "Obamium",
+	"item.obamiummod.obamiumite": "Obamiumite",
+	"item.obamiummod.obamas_skin": "Obama's Skin",
+	"item.obamiummod.obamium_tool": "Obamium Tool",
+	"item.obamiummod.obamium_apple": "Obamium Apple",
+	"item.obamiummod.obama_spawn_egg": "Obama Spawn Egg",
+	
+	"block.obamiummod.obamium_ore": "Obamium Ore",
+	
+	"entity.obamiummod.obama": "Obama",
+	"entity.obamiummod.obamium_bullet": "Obamium Bullet",
+	
+	"itemGroup.obamiummod": "Obamium Mod"
+}
