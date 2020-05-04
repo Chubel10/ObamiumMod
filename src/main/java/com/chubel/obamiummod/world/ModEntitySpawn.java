@@ -16,8 +16,7 @@ public class ModEntitySpawn {
 
 		.forEach(biome -> {
 			biome.getSpawns(EntityClassification.CREATURE)
-			.add(new SpawnListEntry(ModEntities.OBAMA.get(), 1, 2, 2));
-//			.add(new SpawnListEntry(ModEntities.OBAMA, 1, 2, 2));
+			.add(new SpawnListEntry(ModEntities.OBAMA.get(), 1, 2, 2));	
 		});
 
 	}

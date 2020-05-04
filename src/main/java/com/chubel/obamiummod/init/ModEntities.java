@@ -19,10 +19,19 @@ public class ModEntities {
 	// }
 	public static final DeferredRegister<EntityType<?>> ENTITIES = new DeferredRegister<>(ForgeRegistries.ENTITIES,
 			ObamiumMod.MODID);
-
+	
+	
+	public static final EntityType<ModEntity> TEMPORARY_OBAMA = EntityType.Builder.<ModEntity>create(ModEntity::new, EntityClassification.MONSTER).size(0.6F, 1.95F)
+			.build(ObamiumMod.MODID + "obama");
+	
+//	public static final RegistryObject<EntityType<ModEntity>> OBAMA = ENTITIES.register("obama",
+//			() -> EntityType.Builder.<ModEntity>create(ModEntity::new, EntityClassification.MONSTER).size(0.6F, 1.95F)
+//					.build(ObamiumMod.MODID + "obama"));
+	
 	public static final RegistryObject<EntityType<ModEntity>> OBAMA = ENTITIES.register("obama",
-			() -> EntityType.Builder.<ModEntity>create(ModEntity::new, EntityClassification.MONSTER).size(0.6F, 1.95F)
-					.build(ObamiumMod.MODID + "obama"));
+			() -> TEMPORARY_OBAMA);
+	
+	
 	
 //	public static final EntityType<ModEntity> OBAMA = null;
 

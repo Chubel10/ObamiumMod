@@ -3,6 +3,7 @@ package com.chubel.obamiummod;
 import com.chubel.obamiummod.entity.ModEntity;
 import com.chubel.obamiummod.entity.ModFloatingEntity;
 import com.chubel.obamiummod.init.ModBlocks;
+import com.chubel.obamiummod.init.ModEntities;
 import com.chubel.obamiummod.init.ModItemGroups;
 import com.chubel.obamiummod.item.ModSpawnEgg;
 import com.chubel.obamiummod.world.ModEntitySpawn;
@@ -39,12 +40,13 @@ public class ModEventSubscriber {
 //		OBAMA = EntityType.Builder.<ModEntity>create(ModEntity::new, EntityClassification.MONSTER).size(0.6F, 1.95F)
 //				.build(ObamiumMod.MODID + "obama");
 		
-		final EntityType<ModEntity> OBAMA = EntityType.Builder.<ModEntity>create(ModEntity::new, EntityClassification.MONSTER).size(0.6F, 1.95F)
-				.build(ObamiumMod.MODID + "obama");
+//		final EntityType<ModEntity> OBAMA = EntityType.Builder.<ModEntity>create(ModEntity::new, EntityClassification.MONSTER).size(0.6F, 1.95F)
+//				.build(ObamiumMod.MODID + "obama");
 
 //		registry.register(setup(new ModSpawnEgg(ModEntities.OBAMA.get(), 5390124, 3875841,
 		registry.register(setup(
-				new ModSpawnEgg(OBAMA, 5390124, 3875841, (new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP))),
+//				new ModSpawnEgg(OBAMA, 5390124, 3875841, (new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP))),
+				new ModSpawnEgg(ModEntities.TEMPORARY_OBAMA, 5390124, 3875841, (new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP))),
 				"obama_spawn_egg"));
 
 	}
